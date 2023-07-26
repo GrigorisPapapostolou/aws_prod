@@ -1,0 +1,22 @@
+
+# Django-specific files
+logs/
+*.log
+*.pot
+*.pyc
+__pycache__
+local_settings.py
+db.sqlite3
+
+# Virtual Environment
+.env
+venv/
+env/
+
+# PyCharm-specific files
+.idea/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
